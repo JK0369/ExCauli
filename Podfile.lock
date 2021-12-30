@@ -1,0 +1,16 @@
+PODS:
+  - Cauliframework (1.0.1)
+
+DEPENDENCIES:
+  - Cauliframework
+
+SPEC REPOS:
+  trunk:
+    - Cauliframework
+
+SPEC CHECKSUMS:
+  Cauliframework: 564409590b076d29d3994c4bfc2fd2f9abcf3d62
+
+PODFILE CHECKSUM: f1107902bb4029e8faae12416bf63f70922da84b
+
+COCOAPODS: 1.11.2

@@ -6,14 +6,21 @@
 //
 
 import UIKit
+#if DEBUG
+import Cauliframework
+#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+  func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions:
+  [UIApplication.LaunchOptionsKey: Any]?
+  ) -> Bool {
+    #if DEBUG
+    Cauli.shared.run()
+    #endif
     return true
   }
 
